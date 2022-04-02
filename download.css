@@ -1,0 +1,229 @@
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    header{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: rgb(18,140,126);  
+        z-index: 1000;
+    }
+    header div{
+        display: flex;
+        height: 90px;
+    }
+    header div ul li.logo{
+        margin-right: 80px;
+    }
+    header div ul li img{
+        width: 170px;
+    }
+    header div ul{
+        display: flex;
+        margin: 0px auto;
+        align-items: center;
+    }
+    header div ul li{
+
+        list-style-type: none;
+        padding: 10px 22px;
+
+    }
+    header div ul li :hover {
+        border-bottom: 2px solid white;
+        border-top: 2px solid white;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+
+    }
+    header div ul :first-child :hover {
+        border: none;
+    }
+    header div ul :last-child :hover {
+        border: none;
+    }
+    header div ul li a{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    }
+    svg{
+        width: 20px;
+        height: 20px;
+    }
+
+    /* --------------------------- */
+    /* Copy content from main css */
+    /* --------------------------- */
+
+    div.leftside{
+        position: relative;
+        top: 90px;
+        left: 0px;
+        width: 47%;
+        margin: 0px 10px 0px 20px;
+        display: inline-block;
+        justify-content: space-evenly;
+    }
+    div.rightside{
+        position: relative;
+        top: 90px;
+        right: 0px;
+        width: 47%;
+        margin: 0px 20px 0px 10px;
+        display: inline-block;
+        justify-content: space-evenly;
+        vertical-align: top;
+    }
+    /* div{
+        height: 900px;
+    } */
+    div.container1{
+        padding: 50px;
+        text-align: center;
+        padding-bottom: 90px;
+    }
+    div.container1 img{
+        
+        width: 500px;
+    }
+    div.container1 h1{
+        padding: 0px 40px;
+    }
+    div a{
+        text-decoration: none;
+        color: skyblue;
+    }
+    div.container1 p, div.container5 p{
+        padding: 0px 40px;
+    }
+
+    div.container5{
+        padding: 50px 50px 0px 50px;
+        text-align: center;
+        vertical-align: top;
+        padding-bottom: 50px;
+    }
+    div.container5 a{
+
+        padding: 20px;
+    }
+    img.laptop{
+        width: 400px;
+    }
+    img.microsoft{
+        display: block;
+        width: 200px;
+        margin: 30px auto;
+    }
+
+    .gray{
+        background-color: rgb(240,244,249);
+    }
+
+
+    .yellow{
+        background-color: rgb(252,242,198);
+    }
+
+    .green{
+        background-color: rgb(216,232,234);
+    
+    }
+    .seagreen{
+        background-color: rgb(231,240,228);
+    
+    }
+    .dark{
+        background-color: rgb(39,52,67);
+    }
+
+    button.android{
+        background-color: rgb(18,140,126); 
+        padding: 15px 30px;
+        border-radius: 25px;
+        margin-top: 20px;
+        margin-right: 110px;
+        color: white;
+        font-weight: bold;
+    }
+    button.iphone{
+        background-color: rgb(18,140,126); 
+        padding: 15px 30px;
+        margin-top: 20px;
+        border-radius: 25px;
+        margin-left: 110px;
+        color: white;
+        font-weight: bold;
+    }
+    button.windows{
+        background-color: rgb(18,140,126); 
+        padding: 15px 30px;
+        margin-top: 20px;
+        border-radius: 25px;
+        color: white;
+        font-weight: bold;
+    }
+
+
+
+
+    footer{
+        position: relative;
+        /* position: static; */
+        width: 100%;
+        top: 90px;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+    }
+    div.foot{
+        position: static;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        display: block;
+    }
+    footer div.foot{
+        display: inline-block;
+        margin: 0px;
+        text-align: center;
+
+    }
+    footer div.foot ul{
+        display: inline-block;
+        width: 12%;
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+        vertical-align: top;
+        padding: 50px;
+    }
+    footer div.foot ul :first-child{
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-bottom: 25px;
+    }
+    footer div.foot ul li{
+        text-align: left;
+        padding: 5px;
+        font-size: larger;
+    }
+    footer div.foot div.last {
+        background-color: rgb(28,30,33);
+        padding: 25px;
+        justify-content: center;
+    }
+    footer div.foot div.last p{
+        display: inline-block;
+        margin: 0px 150px;
+        font-size: 20px;
+    }
+    footer div.foot div.last p+p{
+        cursor: pointer;
+    }

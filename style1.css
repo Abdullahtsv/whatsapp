@@ -1,0 +1,71 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(218,221,221);
+    height: 1050px;
+}
+header{
+    position: static;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 225px;
+    background-color: rgb(0,168,132);
+}
+header div.logo{
+    padding: 20px 230px;
+}
+section div.container{
+    position: absolute;
+    top: 0px;
+    display: block;
+    left: 0px ;
+    right: 0px;
+    margin-bottom: 100px;
+    padding: 60px;
+    width: 52%;
+    background-color: white;
+    margin: 100px auto;
+    box-shadow: 0px 0px 50px gray;
+}
+header div.logo img{
+    width: 175px;   
+}
+div.content {
+    display: inline-block;
+    
+}
+div.content ol {
+    padding: 0px;
+    margin: 20px;
+}
+div.content ol li{
+    vertical-align: bottom;
+    line-height: 50px;
+}
+div.content ol li img{
+    width: 25px;
+}
+div.content p.title{
+    font-size: 25px;
+}
+div.content p.cadetblue {
+    color: cadetblue;
+}
+div.content{
+    width: 60%;
+}
+div.qrcode{
+    width: 40%;
+    float: right;
+}
+div.qrcode img{
+    width: 280px;
+    float: right;   
+}
+div.video{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(249,249,250);
+    padding: 50px 0px;
+}

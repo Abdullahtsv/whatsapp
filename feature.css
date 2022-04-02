@@ -1,0 +1,231 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(18,140,126);  
+    z-index: 1000;
+}
+header div{
+    display: flex;
+    height: 90px;
+}
+header div ul li.logo{
+    margin-right: 80px;
+}
+header div ul li img{
+    width: 170px;
+}
+header div ul{
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+}
+header div ul li{
+
+    list-style-type: none;
+    padding: 10px 22px;
+
+}
+header div ul li :hover {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
+header div ul :first-child :hover {
+    border: none;
+}
+header div ul :last-child :hover {
+    border: none;
+}
+header div ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+svg{
+    width: 20px;
+    height: 20px;
+}
+
+/* --------------------------- */
+/* Copy content from main css */
+/* --------------------------- */
+
+div.leftside{
+    top: 90px;
+    left: 0px;
+    width: 47%;
+    margin: 0px 10px 0px 20px;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+div.rightside{
+    right: 0px;
+    width: 47%;
+    margin: 0px 20px 0px 10px;
+    display: inline-block;
+    justify-content: space-evenly;
+    vertical-align: top;
+}
+div.container1{
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+div p{
+    padding: 10px 90px;
+}
+div.container2{
+    padding: 50px 50px 0px 50px;    
+    text-align: center;
+    margin-bottom: 20px;
+}
+div.container3{
+    padding: 0px 50px 50px 50px;    
+    text-align: center;
+    margin-bottom: 20px;
+}
+div.container3 img{
+    width: 400px;
+}
+
+div.container4{
+    padding: 50px 50px 0px 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div.container4 img{
+    margin-top: 20px;
+    width: 400px;
+}
+div.container5{
+    padding: 50px 50px 0px 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+div.container6{
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-image: url("./img/mobileandlaptop.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+div.container6 img{
+    visibility: hidden;
+}
+div.container7{
+    padding: 50px 50px 0px 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+div.container8{
+    padding: 0px 50px 50px 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+div.container8 img{
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.gray{
+    background-color: rgb(240,244,249);
+}
+
+
+.yellow{
+    background-color: rgb(252,242,198);
+}
+
+.green{
+    background-color: rgb(216,232,234);
+   
+}
+.seagreen{
+    background-color: rgb(231,240,228);
+   
+}
+.dark{
+    background-color: rgb(39,52,67);
+}
+
+
+
+
+
+
+footer{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+div.foot{
+    position: relative;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    display: block;
+}
+footer div.foot{
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+
+}
+footer div.foot ul{
+    display: inline-block;
+    width: 12%;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    vertical-align: top;
+    padding: 50px;
+}
+footer div.foot ul :first-child{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+footer div.foot ul li{
+    text-align: left;
+    padding: 5px;
+    font-size: larger;
+}
+footer div.foot div.last {
+    background-color: rgb(28,30,33);
+    padding: 25px;
+    justify-content: center;
+}
+footer div.foot div.last p{
+    display: inline-block;
+    margin: 0px 150px;
+    font-size: 20px;
+}
+footer div.foot div.last p+p{
+    cursor: pointer;
+}
